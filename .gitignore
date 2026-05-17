@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Claude Code memory
+.claude/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native builds
+.kotlin/
+ios/
+android/
+
+# Environment
+.env
+.env*.local
+
+# Backend database (gerado automaticamente)
+data/doafood.json
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS
+.DS_Store
+*.pem
+
+# Build
+*.tsbuildinfo
+.metro-health-check*
+
+# Keys / Certificates
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b5e20"/>
+      <stop offset="100%" stop-color="#43a047"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo arredondado (estilo iOS) -->
+  <rect width="512" height="512" rx="96" ry="96" fill="url(#bg)"/>
+
+  <!-- Garfo (lado esquerdo, branco) -->
+  <g fill="white" opacity="0.95">
+    <!-- Dente esquerdo -->
+    <rect x="145" y="108" width="13" height="82" rx="6.5"/>
+    <!-- Dente central -->
+    <rect x="166" y="108" width="13" height="82" rx="6.5"/>
+    <!-- Dente direito -->
+    <rect x="187" y="108" width="13" height="82" rx="6.5"/>
+    <!-- Barra de junção -->
+    <rect x="145" y="182" width="55" height="14" rx="5"/>
+    <!-- Haste principal -->
+    <rect x="166" y="192" width="13" height="212" rx="6.5"/>
+  </g>
+
+  <!-- Coração (lado direito, branco) -->
+  <path
+    d="M330 350
+       C268 302 218 262 218 212
+       C218 180 242 156 272 156
+       C294 156 314 170 330 188
+       C346 170 366 156 388 156
+       C418 156 442 180 442 212
+       C442 262 392 302 330 350 Z"
+    fill="white"
+    opacity="0.95"
+  />
+</svg>
